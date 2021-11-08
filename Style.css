@@ -1,0 +1,224 @@
+li {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #ffff;
+    font-family: sans-serif;
+}
+
+body {
+    margin: auto;
+    width: 1200px;
+}
+
+.header {
+    height: 100px;
+    padding-top: 20px;
+    border-bottom: 2px solid rgb(206, 206, 206);
+}
+
+.content {
+    padding-top: 80px;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu_obj {
+    display: inline-block;
+    padding:0 12.5px 12.5px ;
+    height: 70px;
+    border-bottom: none;
+    color: rgba(161, 161, 161, 0.733);
+}
+
+.menu_obj:hover{
+    border-bottom: 4px solid orange;
+    color: black;
+}
+
+.logo {
+    float: left;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.avatar {
+    float: right;
+    width: 5%;
+    height: auto;
+    border: 2px solid #ffff;
+    transition-property: border;
+    transition: 0.5s;
+}
+
+.avatar:hover {
+    border: 2px solid orange;
+    border-radius: 100%;
+}
+
+.shop_cart {
+    float: right;
+    padding: 18px 60px;
+    height: 25%;
+    width: auto;
+}
+
+.attribution {
+    justify-content: center;
+    display: inline;
+}
+
+.product_images {
+    width: 600px;
+    float: left;
+}
+
+.main_img {
+    height: auto;
+    width: 500px;
+    float: left;
+    border: 1px solid #ffff;
+    border-radius: 3%;
+    padding-left: 5px;
+}
+
+.thumbnail_imgs {
+    width: 600px;
+    float: left;
+    padding: 0;
+}
+
+.thumbnail_img {
+    border: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.thumbnail_img img {
+    width: 100px;
+    height: auto;
+    border: 3px solid #ffff;
+    border-radius: 10%;
+}
+
+.thumbnail_img img:hover {
+    border: 3px solid orange;
+    opacity: 0.5;
+}
+
+.Brand_Name {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 16px;
+    color: orange;
+}
+
+.Brand_Name2 {
+    display: inline-block;
+    font-size: 16px;
+    color: orange;
+}
+
+.text {
+    width: 600px;
+    float: right;
+    padding-top: 60px;
+}
+
+.Sneakers {
+    padding: 25px 0px 40px 0;
+    font-size: 40px;
+    width: 400px;
+}
+
+.Description {
+    color: rgba(0, 0, 0, 0.486);
+    width: 400px;
+    font-size: 18px;
+}
+
+.Price {
+    display: inline-block;
+    font-size: 31px;
+    padding: 30px 20px 10px 0px;
+}
+
+.Sale {
+    display: inline-block;
+    font-size: 20px;
+    width: 60px;
+    background-color: rgb(255, 230, 197);
+    border: 1px solid #ffff;
+    border-radius: 10px;
+}
+
+.Sale_text {
+    padding-left: 12px;
+    color: orange;
+}
+
+.Pre_Price {
+    color: rgba(0, 0, 0, 0.486);
+    text-decoration: line-through;
+}
+
+.Quantity {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+}
+
+.add_but {
+    width: 50px;
+    height: 25px;
+    border: none;
+}
+
+.minus_but {
+    width: 50px;
+    height: 25px;
+    border: none;
+}
+
+.submit {
+    width: 300px;
+    height: 60px;
+    color: #ffff;
+    background-color: rgb(255, 176, 111);
+    border:1px solid #ffff;
+    border-radius: 15px;
+    transition: width 0.5s;
+}
+
+.submit:hover {
+    background-color: rgb(255, 160, 82);
+    width: 310px;
+}
+
+.submit_text {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.add_cart {
+    opacity: 0.7;
+    padding-right: 20px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: black;
+}
+
+.attribution a:hover{
+    text-decoration: none;
+    color: violet;
+}
+
+.submit_link {
+    text-decoration: none;
+    color: #ffff;
+}
